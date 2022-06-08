@@ -5,7 +5,7 @@
 </svelte:head>
 
 <script>
-	const DATE_PERIOD = "Aug 31, 2022 00:00:00";
+    const DATE_PERIOD = "Aug 31, 2022 00:00:00";
 
     const formatDate = (date) => {
         return date < 10 ? `0${date}` : date
